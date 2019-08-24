@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  &_default {
+    background-image: url("https://via.placeholder.com/160x195/30d9c4/ffffff/?text=ADALAB");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 195px;
+    width: 160px;
+    margin: 2%;
+    border-radius: 1em;
+  }
+}
