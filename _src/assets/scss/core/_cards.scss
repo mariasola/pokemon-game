@@ -1,8 +1,7 @@
 .cards {
   display: flex;
   justify-content: center;
-  &_default {
-    background-image: url("https://via.placeholder.com/160x195/30d9c4/ffffff/?text=ADALAB");
+  .img_back {
     background-repeat: no-repeat;
     background-position: center;
     height: 195px;
@@ -10,4 +9,7 @@
     margin: 2%;
     border-radius: 1em;
   }
+}
+.hidden {
+  display: none;
 }
